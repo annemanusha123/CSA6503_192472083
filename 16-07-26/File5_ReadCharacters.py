@@ -1,0 +1,5 @@
+file = open("sample.txt", "r")
+data = file.read(10)
+print("First 10 characters:")
+print(data)
+file.close()

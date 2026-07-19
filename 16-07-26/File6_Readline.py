@@ -1,0 +1,5 @@
+file = open("sample.txt", "r")
+line = file.readline()
+print("First Line:")
+print(line)
+file.close()
